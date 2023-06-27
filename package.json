@@ -1,0 +1,19 @@
+{
+  "name": "pokeapi",
+  "version": "1.0.0",
+  "description": "API de pruebas para evaluación",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Mau",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jspdf": "^2.5.1",
+    "node-fetch": "^2.6.5"
+  }
+}
